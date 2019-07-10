@@ -70,3 +70,19 @@ pretty_dt <- function(data, ...) {
   )
   return(ret)
 }
+
+#' Insert JS and CSS deps.
+#'
+#' @importFrom htmltools HTML
+#'
+#' @return String
+#' @export
+insert_dependencies <- function() {
+  HTML(paste(
+    '<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.semanticui.min.js"></script>',
+    '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>',
+    '<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css" rel="stylesheet" />',
+    '<link href="https://cdn.datatables.net/1.10.19/css/dataTables.semanticui.min.css" rel="stylesheet" />',
+    '<link href="https://cdn.datatables.net/plug-ins/1.10.19/integration/font-awesome/dataTables.fontAwesome.css" rel="stylesheet" />'
+  ))
+}

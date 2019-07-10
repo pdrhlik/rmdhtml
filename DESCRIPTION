@@ -18,5 +18,6 @@ Imports:
     DT,
     rlang,
     glue,
-    lubridate
+    lubridate,
+    htmltools
 RoxygenNote: 6.1.1
