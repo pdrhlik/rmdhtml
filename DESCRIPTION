@@ -1,12 +1,15 @@
 Package: rmdhtml
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Rmarkdown HTML enhancements
+Version: 0.0.0.9000
+Author: person("Patrik", "Drhlik", email = "patrik.drhlik@gmail.com", role = c("aut", "cre"))
+Description: The package offers a set of functions that
+    help make rmarkdown reports more interactive. For now
+    it offers a function to easily create an interactive
+    and properly formatted datatable.
+URL: https://github.com/pdrhlik/rmdhtml
+BugReports: https://github.com/pdrhlik/rmdhtml/issues
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports: 
